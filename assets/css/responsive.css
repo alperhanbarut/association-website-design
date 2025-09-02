@@ -1,0 +1,365 @@
+/********************************************************** Telefon **********************************************************/
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  /* MOBİL HEADER */
+  .mobil-hamburger-menu-btn > i {
+    font-size: 5rem;
+    margin-top: 50%;
+  }
+  .mobil-web-site-logo > a > img {
+    width: 40%;
+  }
+  .mobil-menu {
+    background-color: var(--primary-color);
+    z-index: 500;
+  }
+  /* SLİDER */
+  .fullscreen-background {
+    height: 80vh;
+  }
+  .fullscreen-text {
+    font-size: 2.5rem;
+    margin-top: -50%;
+    margin-left: -10%;
+    margin-bottom: 10%;
+  }
+  .fullscreen-desc {
+    font-size: 1rem;
+    margin-left: -15%;
+  }
+  .slider-container {
+    left: 3%;
+    bottom: 2%;
+    right: 0;
+  }
+  .card {
+    width: 50px;
+    height: 33px;
+  }
+  .nav-btn {
+    font-size: 1rem;
+  }
+
+  /* HABERLER */
+
+  .haber_item {
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .haber_item img,
+  .haber_icerik {
+    width: 310px;
+    height: 310px;
+  }
+  .slider_btn.prev {
+    top: 0%;
+    font-size: 10px;
+  }
+  .slider_btn.next {
+    top: 0%;
+    font-size: 10px;
+  }
+  /* EKİBİMİZ */
+  .ekip_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* FOOTER */
+  footer {
+    background: var(--primary-color);
+  }
+  .footer-left img {
+    filter: brightness(0) invert(1);
+  }
+  .social-media {
+    margin-bottom: 10%;
+  }
+  .footer-right .up-to-top-button {
+    margin-top: 7%;
+    margin-left: 45%;
+    font-size: 25px;
+  }
+  .footer-right .copyright {
+    margin-top: 5%;
+  }
+  /* BANNER */
+  .banner {
+    height: 30vh;
+    margin-top: -7%;
+    z-index: -50;
+  }
+  .banner h2 {
+    font-size: 1.3rem;
+  }
+  /* HAKKIMIZDA SAYFASI */
+  .biz_kimiz {
+    flex-direction: column;
+  }
+  .biz_kimiz_sol i,
+  .biz_kimiz_sag i {
+    font-size: 40px;
+    top: -12%;
+  }
+  .biz_kimiz_sol h2,
+  .biz_kimiz_sag h2 {
+    font-size: 2rem;
+  }
+  .biz_kimiz_sol p,
+  .biz_kimiz_sag p {
+    font-size: 1rem;
+  }
+  .bagis h2 {
+    font-size: 1.8rem;
+  }
+  .bagis p {
+    font-size: 0.8rem;
+  }
+  .bagis a {
+    padding: 15px;
+    font-size: 10px;
+    margin-left: 35%;
+  }
+  /* YÖNETİM KURULU SAYFASI */
+  .yonetim_item:nth-child(even) {
+    background-color: #e8f3fc;
+    flex-direction: column;
+  }
+  .yonetim_item {
+    flex-direction: column;
+  }
+  .yonetim_sol img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10%;
+  }
+  .yonetim_sag h2 {
+    font-size: 1.5rem;
+  }
+  .yonetim_sag .unvan {
+    font-size: 0.7rem;
+  }
+  .yonetim_sosyal_medya {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .yonetim_sosyal_medya i {
+    font-size: 10px;
+  }
+  /* FAALİYET ALANLARI SAYFASI */
+  .faaliyet_kapsayici {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .faaliyet_icerik i {
+    font-size: 0.6rem;
+  }
+  .faaliyet_icerik h2 {
+    font-size: 1rem;
+  }
+  .faaliyet_icerik p {
+    font-size: 0.8rem;
+  }
+  .son_faaliyetler_kapsayici {
+    flex-direction: column;
+    padding-top: 120%;
+  }
+  /* HBAERLER & DUYURULAR SAYFASI */
+  .duyuru_baslik h2 {
+    font-size: 1.5rem;
+  }
+  /* İLETİŞİM SAYFASI */
+  .contact-parent {
+    flex-direction: column;
+  }
+  .child1,
+  .child2 {
+    width: 350px;
+  }
+  .child1 img.logo {
+    width: 200px;
+  }
+}
+
+/********************************************************** Tablet **********************************************************/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* MOBİL HEADER */
+  .mobil-hamburger-menu-btn > i {
+    font-size: 50px !important;
+    margin-top: 100% !important;
+  }
+  .mobil-web-site-logo > a > img {
+    width: 30%;
+  }
+  .mobil-menu {
+    background-color: var(--primary-color);
+    z-index: 500;
+  }
+  /* SLİDER */
+  .fullscreen-background {
+    height: 85vh;
+  }
+  .slider-container {
+    right: 10%;
+  }
+  .card {
+    width: 120px;
+    height: 70px;
+  }
+  /* HABERLER */
+  .haber_section {
+    padding: 10%;
+  }
+  .haber_item img,
+  .haber_icerik {
+    width: 450px;
+    height: 450px;
+  }
+  .slider_btn.prev {
+    left: -10%;
+  }
+  .slider_btn.next {
+    right: -10%;
+  }
+  /* FOOTER */
+  footer {
+    background: var(--primary-color);
+  }
+  .footer-left img {
+    filter: brightness(0) invert(1);
+  }
+  .footer-right .up-to-top-button {
+    margin-top: 10%;
+  }
+  /* BANNER */
+  .banner {
+    height: 30vh;
+    margin-top: -7%;
+    z-index: -50;
+  }
+  /* HAKKIMIZDA SAYFASI */
+  .biz_kimiz {
+    flex-direction: column;
+  }
+  .biz_kimiz_sol i,
+  .biz_kimiz_sag i {
+    font-size: 60px;
+  }
+  .bagis a {
+    margin-left: 35%;
+  }
+  /* FAALİYET ALANLARI SAYFASI */
+  .faaliyet_kapsayici {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .son_faaliyetler_kapsayici {
+    flex-direction: column;
+    padding: 70% 0%;
+  }
+  /* İLETİŞİM SAYFASI */
+  .child1 img.logo {
+    width: 250px;
+  }
+}
+
+/********************************************************** Laptop **********************************************************/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* MOBİL HEADER */
+  .mobil-hamburger-menu-btn > i {
+    font-size: 50px !important;
+    margin-top: 150% !important;
+  }
+  .mobil-web-site-logo > a > img {
+    width: 30%;
+  }
+  .mobil-menu {
+    background-color: var(--primary-color);
+    z-index: 500;
+  }
+  /* SLİDER */
+  .fullscreen-background {
+    height: 110vh;
+  }
+  .slider-container {
+    left: 20%;
+    bottom: -40%;
+  }
+  .card {
+    width: 120px;
+    height: 70px;
+  }
+  .fullscreen-text {
+    font-size: 2.5rem;
+  }
+  .fullscreen-desc {
+    margin-bottom: 10%;
+  }
+  /* HABERLER */
+  .haber_section {
+    padding: 10%;
+  }
+  .haber_item img,
+  .haber_icerik {
+    width: 450px;
+    height: 450px;
+  }
+  .slider_btn.prev {
+    left: -10%;
+  }
+  .slider_btn.next {
+    right: -10%;
+  }
+  /* FOOTER */
+  footer {
+    background: var(--primary-color);
+  }
+  .footer-left {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .footer-left img {
+    filter: brightness(0) invert(1);
+  }
+  .footer-right .up-to-top-button {
+    margin-top: 10%;
+  }
+  /* BANNER */
+  .banner {
+    margin-top: -7%;
+    z-index: -50;
+  }
+  /* HAKKIMIZDA SAYFASI */
+  .biz_kimiz {
+    flex-direction: column;
+  }
+  .biz_kimiz_sol i,
+  .biz_kimiz_sag i {
+    font-size: 60px;
+  }
+  .bagis a {
+    margin-left: 40%;
+  }
+  /* YÖNETİM KURULU SAYFASI */
+  .yonetim_section {
+    padding: 5% 20%;
+  }
+  .yonetim_item {
+    flex-direction: column;
+  }
+  .yonetim_item:nth-child(even) {
+    flex-direction: column;
+  }
+  .yonetim_sosyal_medya {
+    flex-direction: row;
+    margin-left: 15%;
+  }
+  /* FAALİYET ALANLARI SAYFASI */
+  .faaliyet_kapsayici {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .son_faaliyetler_kapsayici {
+    flex-direction: column;
+    padding: 70% 0%;
+  }
+  /* İLETİŞİM SAYFASI */
+  .child1 img.logo {
+    width: 250px;
+  }
+}
