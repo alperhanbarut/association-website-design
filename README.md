@@ -45,10 +45,10 @@ Dernekler ve sivil toplum kuruluşları için modern, duyarlı (responsive) bir 
 ## 🖥️ Usage / Kullanım
 
 **English:**  
-Simply open the \`index.html\` file in a browser to view the template.  
+Simply open the \`index.php\` file in a browser to view the template.  
 Use your favorite tools (like VS Code) to tweak layouts, colors, fonts, and sections.  
 
 **Türkçe:**  
-Şablonu görüntülemek için sadece \`index.html\` dosyasını tarayıcıda açmanız yeterli.  
+Şablonu görüntülemek için sadece \`index.php\` dosyasını tarayıcıda açmanız yeterli.  
 VS Code gibi araçlarla düzen, renk, font ve bölümleri değiştirebilirsiniz.  
 
